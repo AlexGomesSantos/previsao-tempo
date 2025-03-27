@@ -2,6 +2,7 @@
   max-width: 1000px;
   padding: 20px;
   margin: 0 auto;
+  text-align: center;
 }
 
 h1 {
@@ -15,6 +16,9 @@ input {
   border: none;
   width: 60%;
   max-width: 300px;
+  outline: none;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 button {
@@ -25,4 +29,8 @@ button {
   cursor: pointer;
   color: #fff;
   font-weight: bold;
+}
+
+button:hover {
+  background-color: #f57c00;
 }
